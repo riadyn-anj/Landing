@@ -4,7 +4,7 @@ import { HomeInfo, Loader } from "../components";
 import { Bird, Island, Plane, Sky } from "../models";
 import sakura from "../assets/sakura.mp3";
 
-const LandingPage = () => {
+const Landing = () => {
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
 
@@ -110,4 +110,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Landing;
