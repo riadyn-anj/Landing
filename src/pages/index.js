@@ -5,7 +5,7 @@ import Contact from "./Contact";
 import Tax from "./Tax";
 import Material from "./Material"
 import Convert from "./Convert"
-import Payroll from "./payroll"
+import Payroll from "./Payroll"
 
 export {
     Home,
