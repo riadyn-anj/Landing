@@ -6,6 +6,7 @@ import Tax from "./Tax";
 import Material from "./Material"
 import Convert from "./Convert"
 import Payroll from "./Payroll"
+import LandingPage from "./LandingPage";
 
 export {
     Home,
@@ -15,5 +16,6 @@ export {
     Tax,
     Material,
     Convert,
-    Payroll
+    Payroll,
+    LandingPage
 }

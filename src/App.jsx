@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import { Footer, Navbar } from "./components";
-import { About, Contact, Home, Projects, Tax, Convert, Payroll} from "./pages";
+import { About, Contact, Home, Projects, Tax, Convert, Payroll, LandingPage} from "./pages";
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
                   <Route path="/taxfactorial" element={<Tax />} />
                   <Route path="/convert" element={<Convert />} />
                   <Route path="/payroll" element={<Payroll />} />
+                  <Route path="/landingpage" element={<LandingPage />} />
                 </Routes>
                 <Footer />
               </>
